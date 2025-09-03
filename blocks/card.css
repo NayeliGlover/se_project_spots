@@ -34,7 +34,11 @@
   height: 20px;
   opacity: 40%;
   border: none;
+  display: flex;
+  flex: 0 0 23px;
+  margin-left: 12px;
 }
+
 .card__like-btn:hover {
   opacity: 100%;
 }
@@ -42,5 +46,6 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+    width: 288px;
   }
 }
