@@ -14,8 +14,8 @@ The site allows to create a profile with the identity of the user. the profiles 
 
 ## Screenshots
 
-![spots1](./images/spots1.jpg)
-![spots2](./images/spots2.jpg)
+![spots1](./images/spots1.png)
+![spots2](./images/spots2.png)
 
 ## Deployment
 
