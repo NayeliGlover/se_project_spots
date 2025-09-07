@@ -11,6 +11,8 @@ The site allows to create a profile with the identity of the user. the profiles 
 - HTML
 - CSS
 - Responsive Design
+- CSS Grid
+- Media Queries
 
 ## Screenshots
 
@@ -22,9 +24,3 @@ The site allows to create a profile with the identity of the user. the profiles 
 This webpage is deployed to GitHub Pages
 
 [Diployment Link](https://nayeliglover.github.io/se_project_spots/)
-
-### Overview
-
-- Intro
-- Figma
-- Images
