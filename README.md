@@ -24,3 +24,7 @@ The site allows to create a profile with the identity of the user. the profiles 
 This webpage is deployed to GitHub Pages
 
 [Diployment Link](https://nayeliglover.github.io/se_project_spots/)
+
+## Project Video
+
+https://drive.google.com/file/d/1ZCeYFl3tF2_NcQ1Rm62D_qVqOSU_f0Qj/view?usp=sharing
