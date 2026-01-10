@@ -58,7 +58,7 @@ function handleEditProfileSubmit(evt) {
 }
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
-  console.log(newPostCardCaptionInput.value, newPostCardImage.value);
+  console.log(newPostCardCaptionInput.value, newPostCardImageInput.value);
   closeModal(newPostModal);
 }
 
