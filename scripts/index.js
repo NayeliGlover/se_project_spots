@@ -60,6 +60,7 @@ function handleNewPostSubmit(evt) {
   evt.preventDefault();
   console.log(newPostCardCaptionInput.value, newPostCardImageInput.value);
   closeModal(newPostModal);
+  newPostForm.reset();
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
