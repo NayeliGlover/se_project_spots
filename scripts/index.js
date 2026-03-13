@@ -51,6 +51,14 @@ const profileDescriptionEl = document.querySelector(".profile__description");
 const newPostCardCaptionEl = document.querySelector(".card__title");
 const newPostCardImageEl = document.querySelector(".card__image");
 
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
+function closeModal(modal) {
+  modal.classList.remove("modal_is-opened");
+}
+
 editProfileBtn.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
   editProfileDescriptionInput.value = profileDescriptionEl.textContent;
@@ -68,14 +76,6 @@ newPostBtn.addEventListener("click", function () {
 newPostCloseBtn.addEventListener("click", function () {
   closeModal(newPostModal);
 });
-
-function openModal(modal) {
-  modal.classList.add("modal_is-opened");
-}
-
-function closeModal(modal) {
-  modal.classList.remove("modal_is-opened");
-}
 
 function handleEditProfileSubmit(evt) {
   evt.preventDefault();
