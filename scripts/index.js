@@ -52,12 +52,9 @@ const newPostCardImageInput = newPostModal.querySelector("#card-image-input");
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
-const newPostCardCaptionEl = document.querySelector(".card__title");
-const newPostCardImageEl = document.querySelector(".card__image");
-
 const previewModal = document.querySelector("#preview-modal");
 const previewModalCloseBtn = previewModal.querySelector(
-  ".modal__close_type_preview"
+  ".modal__close-btn_type_preview"
 );
 const previewImageEl = previewModal.querySelector(".modal__image");
 const previewModalCaption = previewModal.querySelector(".modal__caption");
@@ -141,8 +138,8 @@ function handleNewPostSubmit(evt) {
     link: newPostCardImageInput.value,
   };
 
-  const cardsElement = getCardElement(inputValues);
-  cardsList.prepend(cardsElement);
+  const cardElement = getCardElement(inputValues);
+  cardsList.prepend(cardElement);
 
   closeModal(newPostModal);
   newPostForm.reset();
@@ -153,6 +150,6 @@ editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 newPostForm.addEventListener("submit", handleNewPostSubmit);
 
 initialCards.forEach(function (item) {
-  const cardsElement = getCardElement(item);
-  cardsList.append(cardsElement);
+  const cardElement = getCardElement(item);
+  cardsList.append(cardElement);
 });

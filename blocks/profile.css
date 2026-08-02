@@ -41,13 +41,13 @@
   justify-content: flex-start;
   border: none;
   gap: 8px;
-  opacity: 70%;
+  opacity: 0.7;
   background-color: transparent;
   cursor: pointer;
 }
 
 .profile__edit-btn:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .profile__add-btn {
@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 .profile__add-btn:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {
