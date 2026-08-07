@@ -98,7 +98,7 @@
 }
 
 .modal__input:hover {
-  border: 1px dashed rgba(33, 33, 33, 0.4);
+  border: 1px solid rgba(33, 33, 33, 0.4);
 }
 
 .modal__submit-btn {
@@ -151,7 +151,7 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   color: white;
   max-width: 214px;
-  white-space: nowrap;
+  white-space: normal;
   text-overflow: ellipsis;
   overflow: hidden;
   height: auto;
@@ -163,6 +163,7 @@
     padding: 16px 20px;
     max-width: 300px;
     display: flex;
+    flex-direction: column;
     gap: 24px;
   }
 
@@ -178,4 +179,9 @@
   .modal__image {
     max-width: 90vw;
   }
+
+  .modal__submit-btn {
+    max-width: none;
+  }
 }
+ 
