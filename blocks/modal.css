@@ -96,9 +96,26 @@
   box-sizing: border-box;
   border: 1px solid rgba(33, 33, 33, 0.4);
 }
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
 
 .modal__input:hover {
   border: 1px solid rgba(33, 33, 33, 0.4);
+}
+.modal__input::placeholder {
+  color: rgba(33, 33, 33, 0.3);
+}
+
+.modal__error {
+  display: none;
+  color: rgba(255, 0, 0, 0.7);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.modal__error_visible {
+  display: block;
 }
 
 .modal__submit-btn {
@@ -114,20 +131,22 @@
   cursor: pointer;
 }
 
+.modal__submit_btn-disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
 .modal__submit-btn:hover {
   opacity: 0.8;
 }
 
 .modal__label {
-  margin: 0 0 32px;
+  margin-bottom: 32px;
+  display: block;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 110.00000000000001%;
-}
-
-.modal__input::placeholder {
-  color: rgba(33, 33, 33, 0.3);
 }
 
 .modal__image {
