@@ -2,7 +2,9 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -132,7 +134,7 @@
   cursor: pointer;
 }
 
-.modal__submit_btn-disabled {
+.modal__submit-btn.modal__submit-btn_disabled {
   opacity: 0.4;
   cursor: default;
 }
